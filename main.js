@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <button class="delete">Видалити</button>
         `;
         bookmarkList.appendChild(li);
-
         li.querySelector('.delete').addEventListener('click', () => {
             li.remove();
             removeBookmark(bookmark);
